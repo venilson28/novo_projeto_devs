@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-topo {
+    height: 70px;
+    width: 100%;
+    display: flex;
+
+}
+
+header {
+    height: auto;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.container-banner {
+    height: 600px;
+    width: 100%;
+    background-image: url(img/capa.jpg);
+    background-size: cover;
+}
+
+.container-sub-banner {
+    height: 120px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.603);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+
+.banner-texto {
+    height: 80px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.banner-texto h1 {
+    color: white;
+
+}
+
+.container-1 {
+    height: 420px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-1-a {
+    height: 420px;
+    max-width: 800px;
+background-color: rgb(60, 0, 255);
+}
+
+figure {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+h2,
+p {
+    padding: 5px;
+    color: black;
+    margin: 4px;
+    text-align: center;
+}
+
+.texto-1 p {
+    border-left: solid 2px;
+    display: flex;
+}
+
+.container-2 {
+    height: 100px;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-sub-2 {
+    height: 40px;
+    width: 100%;
+    color: white;
+    background-color: rgb(87, 12, 12);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 16px 0;
+    font-family: sans-serif;
+    align-items: center;
+
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    margin: 10px 0 15px 0;
+    width: 500px;
+
+}
+
+button {
+    background: brown;
+    border: none;
+    height: 32px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin: 16px 0 0 0;
+    width: 550px;
+}
+
+footer p {
+    height: 40px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.388);
+    color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media  only screen and (min_width: 481px) and (max_width: 1024px) {
+    .container-topo{
+        background-color: blue;
+    }
+}
+ .exercicios{
+    width: 90%;
+    height: 800px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 40px;
+ }  
+  .exercicios h1{
+    text-align: center;
+    margin-top: 50px;
+ }  
+ .exercicios h2 {
+    text-align: right;
+    margin: 30px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ h3 {
+    text-align: justify;
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ h4{
+    text-indent: 50px;
+    margin: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
